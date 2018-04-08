@@ -47,7 +47,7 @@ public class XOR extends Gates implements MouseListener, MouseMotionListener {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        g.drawImage(image, 0, 0, 65, 50, this);
+        g.drawImage(image, 5, 0, 65, 50, this);
         g.setColor(Color.green);
         if (giris1On) {
             g.setColor(Color.red);
